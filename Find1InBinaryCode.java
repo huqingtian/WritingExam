@@ -2,7 +2,7 @@ import org.omg.Messaging.SyncScopeHelper;
 
 import java.util.*;
 
-public class Find1In2 {
+public class Find1InBinaryCode {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
