@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * 通过80%  代码未完善
+ * 可能是由于hour小于0引起？？
  */
 public class SchoolTime {
     public static void main(String[] args) {
