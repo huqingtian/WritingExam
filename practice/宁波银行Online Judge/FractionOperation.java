@@ -78,16 +78,15 @@ class Fraction{
             a = b;
             b = temp;
         }
-        while(b!=0){
+        while(b != 0){
             temp = b;
-            b = a%b;
+            b = a % b;
             a = temp;
         }
         return a;
     }
     public Fraction multiply(Fraction r){
-        Fraction temp = new Fraction((this.a * r.a), (this.b * r.b));
-        return temp;
+        return new Fraction((this.a * r.a), (this.b * r.b));
     }
     public void print(){
         int temp = GCD(this.a, this.b);

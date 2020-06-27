@@ -20,7 +20,7 @@ public class DayCheck {
         Scanner in=new Scanner(System.in);
         String stringDate = in.nextLine();
         int num = 0;
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         list.add(0,31);
         SimpleDateFormat ft = new SimpleDateFormat("yyyy/MM/dd");
         Date date = ft.parse(stringDate);

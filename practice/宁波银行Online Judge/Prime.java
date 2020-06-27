@@ -16,7 +16,7 @@ public class Prime {
         Scanner in = new Scanner(System.in);
         int num = 0;
         int ans = 0;
-        int n = 0, m = 0;
+        int n, m;
         boolean flag;
         n = in.nextInt();
         m = in.nextInt();
@@ -28,7 +28,7 @@ public class Prime {
                     break;
                 }
             }
-            if (flag == true) {
+            if (flag) {
                 num++;
                 if(num >= n && num <= m)
                     ans += i;
